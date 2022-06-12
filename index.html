@@ -452,14 +452,23 @@
           <div class="modal-form">
             <label for="name" class="form-text">Имя</label>
             <input type="text" name="name" id="name" />
+            <svg class="modal-icon" width="12" height="12">
+              <use href="./images/sprite.svg#icon-person"></use>
+            </svg>
           </div>
           <div class="modal-form">
             <label for="tel" class="form-text">Телефон</label>
             <input type="tel" name="tel" id="tel" />
+            <svg class="modal-icon" width="13" height="13">
+              <use href="./images/sprite.svg#icon-tel-modal"></use>
+            </svg>
           </div>
           <div class="modal-form">
-            <label for="mail">Почта</label>
+            <label for="mail" class="form-text">Почта</label>
             <input type="email" name="mail" id="mail" />
+            <svg class="modal-icon" width="15" height="12">
+              <use href="./images/sprite.svg#icon-mail-modal"></use>
+            </svg>
           </div>
           <div class="modal-form">
             <label for="comment" class="form-text">Комментарий</label>
@@ -473,7 +482,8 @@
           <div class="modal-policy">
             <input type="checkbox" name="policy" id="policy" />
             <label for="policy" class="policy-text"
-              >Соглашаюсь с рассылкой и принимаю Условия договора</label
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="" class="policy-link">Условия договора</a></label
             >
           </div>
           <button type="submit" class="button submit-button">Отправить</button>
