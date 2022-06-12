@@ -480,9 +480,17 @@
             ></textarea>
           </div>
           <div class="modal-policy">
-            <input type="checkbox" name="policy" id="policy" />
-            <label for="policy" class="policy-text"
-              >Соглашаюсь с рассылкой и принимаю
+            <label for="policy" class="policy-text">
+              <input
+                type="checkbox"
+                name="policy"
+                id="policy"
+                class="visually-hidden checkbox"
+              />
+              <svg class="check-icon" width="16" height="15">
+                <use href="./images/sprite.svg#icon-check"></use>
+              </svg>
+              Соглашаюсь с рассылкой и принимаю
               <a href="" class="policy-link">Условия договора</a></label
             >
           </div>
